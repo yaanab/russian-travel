@@ -1,6 +1,5 @@
 .lead__title {
-  width: 720px;
-  height: 200px;
+  max-width: 720px;
   text-align: center;
   font-style: normal;
   font-weight: 900;

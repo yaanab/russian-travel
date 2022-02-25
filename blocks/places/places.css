@@ -1,0 +1,9 @@
+.places {
+  width: 77%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat (auto-fit, 1fr);
+  gap: 80px;
+  border: 1px solid red;
+}
