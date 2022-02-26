@@ -1,5 +1,13 @@
 .cover__overlay {
-  width: 1184px;
-  height: 740px;
-  color: #2A2C2F;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: background-color 0.2s ease-out;
 }
