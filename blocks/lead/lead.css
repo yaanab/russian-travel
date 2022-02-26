@@ -1,9 +1,26 @@
 .lead {
-  max-width: 984px;
-  min-height: 1005px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .lead {
+    width: 91%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    width: 77%;
+  }
 }
