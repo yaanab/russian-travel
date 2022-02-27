@@ -1,8 +1,17 @@
 .place {
-  width: 100%;
   display: grid;
-  grid-template-columns: 460px 1fr;
-  row-gap: 48px;
-  column-gap: 40px;
-  padding: 0 0 115px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    grid-template-columns: 1fr 48.8%;
+    gap: 48px 3.8%;
+  }
 }
