@@ -1,0 +1,16 @@
+.intro {
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 77%;
+  }
+}
