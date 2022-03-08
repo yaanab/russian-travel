@@ -7,7 +7,7 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .header__lang-links {
     margin: 0 0 8px;
   }

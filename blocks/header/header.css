@@ -6,7 +6,7 @@
   align-items: flex-end;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 424px) {
   .header {
     height: 80px;
   }
